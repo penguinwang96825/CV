@@ -5,4 +5,55 @@
 - JavaScript
 - CSS
 
-<div class='tableauPlaceholder' id='viz1598527996424' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;1_&#47;1_15866147802100&#47;1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='1_15866147802100&#47;1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;1_&#47;1_15866147802100&#47;1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='zh-Hant' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1598527996424');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+### Bootstrap
+1. Containers
+
+
+## Code
+From `A` I found bug.
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yang Wang's CV</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Yang Wang's CV</h1>
+    <p>Rm. 12, 16 F., No. 236, Sec. 2, Xitun Rd., Xitun Dist., Taichung City 407, Taiwan</p> 
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>CINNAMON AI</h3>
+      <p>Won 1st palce in product launch contest.</p> 
+      <p>Developed asset allocation system by integrating portfolio model and language model.</p> 
+      <p>Designed MoneyNet to get text representations from Reuters news.</p> 
+      <p>Crawled text data from Reuters using asynchronous technique.</p> 
+    </div>
+    <div class="col-sm-4">
+      <h3>KKBOX GROUP</h3>
+      <p>Assisted with execution of manual tests, daily stress tests, and exploratory tests.</p>
+      <p>Aided with developing client-side application for product lines.</p>
+      <p>Constructed a polarity detection classifier for UtaPass music streaming app.</p>
+      <p>Built a lyrics-based music genre classifier using CNN-LSTM model.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>MADE WITH ML</h3>        
+      <p>Built out machine learning application end-to-end on AWS EC2.</p>
+      <p>Applied natural Language processing techniques in the finance domain.</p>
+      <p>Predicted foreign exchange rates by making use of the trending topics from Twitter.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+```
