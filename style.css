@@ -1,0 +1,21 @@
+.jumbotron > h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.iconimage {
+  font-size: 15px
+}
+
+.discription > p {
+  font-size: 15px;
+  margin: 0 20px;
+}
+
+.col-sm-4 {
+  font-family: 'Titillium Web', sans-serif;
+}
